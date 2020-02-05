@@ -1,5 +1,7 @@
 ## Setup
 
+This is init data script for preparing data to learn database index.
+
 ```
 php artisan migrate --seed
 ```
@@ -15,6 +17,13 @@ It might take a little time because we init 300k row for user_video table.
 3. Query the time range in the **user_video** table
 
 - index type = range
+
+
+## Reference:
+
+- [https://vanseodesign.com/web-design/the-types-of-indexes-you-can-add-to-mysql-tables/](https://vanseodesign.com/web-design/the-types-of-indexes-you-can-add-to-mysql-tables/)
+- [https://dev.mysql.com/doc/sakila/en/](https://dev.mysql.com/doc/sakila/en/)
+
 
 
 ## License
