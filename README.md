@@ -16,7 +16,10 @@ It might take a little time because we init 300k row for user_video table.
 
 3. Query the time range in the **user_video** table
 
-- index type = range
+- Index type = range
+
+![MySQL Workbench](https://user-images.githubusercontent.com/948856/73829371-68fb7d00-4835-11ea-952d-4e9cdfb2279d.png "MySQL Workbench")
+
 
 
 ## Reference:
